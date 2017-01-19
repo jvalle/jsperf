@@ -11,13 +11,13 @@ tests:
   -
     name: string compare
     code: |
-      var i = Math.round(Math.random() * strings.length);
+      var i = Math.round(Math.random() * 4);
       
       strings[i] === 'good_time' ? 'good time' : strings[i];
   -
     name: string methods
     code: |
-      var i = Math.round(Math.random() * strings.length);
+      var i = Math.round(Math.random() * 4);
       
       strings[i].split('_').join(' ');
 ---
